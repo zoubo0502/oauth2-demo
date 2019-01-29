@@ -5,6 +5,7 @@ import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
+@RequestMapping(path = "/api")
 public class TestController {
 
     @RequestMapping(path = "/test/{name}", method = RequestMethod.GET)
